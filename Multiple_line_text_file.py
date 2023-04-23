@@ -9,6 +9,7 @@ with open("mylife.txt", "w") as input_file:
     #Initialize the loop control variable
     add_line = "y"
     #Loop condition
+    while add_line == "y":
         #Ask the user to enter a line
         #Append the line into the text file mylife.txt
         #Ask the user if he/she wants to input another line
