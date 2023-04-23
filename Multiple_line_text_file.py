@@ -11,6 +11,7 @@ with open("mylife.txt", "w") as input_file:
     #Loop condition
     while add_line == "y":
         #Ask the user to enter a line
+        lines = input("Please enter a line: ")
         #Append the line into the text file mylife.txt
         #Ask the user if he/she wants to input another line
     #Loop will end when condition is not met
