@@ -15,4 +15,5 @@ with open("mylife.txt", "w") as input_file:
         #Write the line into the text file mylife.txt
         input_file.write(lines + "\n")
         #Ask the user if he/she wants to input another line
+        add_line = input("Do you want to enter another line? (Type 'y' if yes and any key if no: ")
     #Loop will end when condition is not met
