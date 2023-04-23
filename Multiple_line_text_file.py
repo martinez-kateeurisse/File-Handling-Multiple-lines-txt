@@ -7,6 +7,7 @@
 #Open the text file
 with open("mylife.txt", "w") as input_file:   
     #Initialize the loop control variable
+    add_line = "y"
     #Loop condition
         #Ask the user to enter a line
         #Append the line into the text file mylife.txt
