@@ -4,7 +4,8 @@
 
 #Create a text file named mylife.txt
 
-#Open the text file   
+#Open the text file
+with open("mylife.txt", "w") as input_file:   
     #Initialize the loop control variable
     #Loop condition
         #Ask the user to enter a line
