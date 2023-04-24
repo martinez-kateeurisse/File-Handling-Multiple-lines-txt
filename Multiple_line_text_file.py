@@ -5,7 +5,9 @@
 #Import certain modules for the program's design and text formatting
 from colorama import Back, Fore, Style 
 import prog_design
+
 #Print header art for the program
+prog_design.multiple_line_header()
 
 #Ask the user's name and printing a greeting
 #Display the program's instructions
