@@ -16,7 +16,8 @@ print("//"*20, "\n\n")
 print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") + Back.RESET, "\n")
 
 #Display the program's instructions
-
+print(f"{Fore.GREEN} This program will writes multiple line of text contents into a text file mylife.txt" +Fore.RESET)
+print("="*85)
 #Create a text file named mylife.txt
 
 #Open the text file
