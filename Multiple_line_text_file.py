@@ -2,6 +2,12 @@
 
 #A Python program that contains a method that writes multiple line of text contents into a text file mylife.txt
 
+#Import certain modules for the program's design and text formatting
+#Print header art for the program
+
+#Ask the user's name and printing a greeting
+#Display the program's instructions
+
 #Create a text file named mylife.txt
 
 #Open the text file
