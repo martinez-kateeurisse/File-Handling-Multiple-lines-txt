@@ -10,4 +10,4 @@ def multiple_line_header():
                                 █▄▄█─█░░▀░░┬░░▀░░█─█▄▄█"""+ Fore.CYAN,"""  
                    █▀▀ █ █░░ █▀▀ ▄▄ █░█ ▄▀█ █▄░█ █▀▄ █░░ █ █▄░█ █▀▀
                    █▀░ █ █▄▄ ██▄ ░░ █▀█ █▀█ █░▀█ █▄▀ █▄▄ █ █░▀█ █▄█""")
-    print(Fore.WHITE,  "="* 18 + "Multiple line text contents file" + "="* 18 ,"\n")
+    print(Fore.WHITE,  "="* 25 + "Multiple line text contents file" + "="* 25 ,"\n")
