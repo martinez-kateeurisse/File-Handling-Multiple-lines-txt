@@ -41,7 +41,11 @@ with open("mylife.txt", "r") as output_file:
     import tkinter as tk
     from tkinter import *
     # Define the lines to be printed
-        #Iterating over the txt file
+    lines = []
+    #Iterating over the txt file
+    for line in output_file:
+        lines.append(line)
+
     # Initialize the current line index
     # Define the function to be called when the button is clicked
         #If statement    
