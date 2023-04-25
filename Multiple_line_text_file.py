@@ -52,7 +52,10 @@ with open("mylife.txt", "r") as output_file:
     # Define the function to be called when the button is clicked  
     def on_button_click():
         global current_line
-        #If statement  
+        #If statement
+        if current_line < len(lines):
+            output_label.config(text=lines[current_line])
+            current_line += 1  
     #Create a new window
     #Add a button to the window
     #Window background
