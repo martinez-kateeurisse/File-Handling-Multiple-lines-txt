@@ -57,6 +57,9 @@ with open("mylife.txt", "r") as output_file:
             output_label.config(text=lines[current_line])
             current_line += 1  
     #Create a new window
+    root = tk.Tk()
+    root.geometry("500x150") #Window size
+    root.title("File Handling - Showing the lines in mylife.txt")  # Adding a title
     #Add a button to the window
     #Window background
     #Add a label to display the output text
