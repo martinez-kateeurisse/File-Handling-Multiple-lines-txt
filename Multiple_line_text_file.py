@@ -16,7 +16,7 @@ print("//"*20, "\n\n")
 print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") + Back.RESET, "\n")
 
 #Display the program's instructions
-print(f"{Fore.GREEN}This program will writes multiple line of text contents into a text file mylife.txt" +Fore.RESET)
+print(f"{Fore.GREEN}This program will write multiple line of text contents into a text file mylife.txt" +Fore.RESET)
 print("="*85)
 #Create a text file named mylife.txt
 
@@ -31,10 +31,19 @@ with open("mylife.txt", "w") as input_file:
         #Write the line into the text file mylife.txt
         input_file.write(lines + "\n")
         #Ask the user if he/she wants to input another line
-        add_line = input(f"{Fore.GREEN}Do you want to enter another line? (Type 'y' if yes and any key if no: " + Fore.RESET)
+        add_line = input(f"{Fore.GREEN}Do you want to enter another line? (Type 'y' if yes and any key if no:) " + Fore.RESET)
         print("="*85)
     #Loop will end when condition is not met
 
+#Output will be printed in new text file (mylife.txt)
+
+#Displaying output instructions
+print("="*85)
+print(f"{Fore.LIGHTGREEN_EX} Note: The output of the program will be displayed in a new tkinter window.", "\n" 
+      " And a txt file (mylife.txt) containing the multiple lines will be created as well. "+Fore.RESET)
+print("="*85)
+
+#For displaying the output in new window 
 #Read the text file
 with open("mylife.txt", "r") as output_file:  
     #Import modules
