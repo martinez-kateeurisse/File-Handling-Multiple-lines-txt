@@ -36,6 +36,7 @@ with open("mylife.txt", "w") as input_file:
     #Loop will end when condition is not met
 
 #Read the text file
+with open("mylife.txt", "r") as output_file:  
     #Import modules
     # Define the lines to be printed
         #Iterating over the txt file
