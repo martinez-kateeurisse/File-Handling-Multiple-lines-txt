@@ -84,3 +84,6 @@ with open("mylife.txt", "r") as output_file:
 
     #Run the main loop method
     root.mainloop()
+
+#Displaying a thank you message after the user closes the tkinter window
+prog_design.program_footer()
