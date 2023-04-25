@@ -56,13 +56,17 @@ with open("mylife.txt", "r") as output_file:
         if current_line < len(lines):
             output_label.config(text=lines[current_line])
             current_line += 1  
+    
     #Create a new window
     root = tk.Tk()
     root.geometry("500x150") #Window size
     root.title("File Handling - Showing the lines in mylife.txt")  # Adding a title
+    
     #Add a button to the window
     button = tk.Button(root, text="Click to reveal lines", command=on_button_click)
     button.pack()
+    
     #Window background
+    root.configure(bg="wheat")
     #Add a label to display the output text
     #Run the main loop method
