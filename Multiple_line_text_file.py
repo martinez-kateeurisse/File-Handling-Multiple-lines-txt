@@ -61,6 +61,8 @@ with open("mylife.txt", "r") as output_file:
     root.geometry("500x150") #Window size
     root.title("File Handling - Showing the lines in mylife.txt")  # Adding a title
     #Add a button to the window
+    button = tk.Button(root, text="Click to reveal lines", command=on_button_click)
+    button.pack()
     #Window background
     #Add a label to display the output text
     #Run the main loop method
