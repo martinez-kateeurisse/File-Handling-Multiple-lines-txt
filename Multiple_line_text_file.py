@@ -47,6 +47,8 @@ with open("mylife.txt", "r") as output_file:
         lines.append(line)
 
     # Initialize the current line index
+    current_line = 0
+    
     # Define the function to be called when the button is clicked
         #If statement    
     
