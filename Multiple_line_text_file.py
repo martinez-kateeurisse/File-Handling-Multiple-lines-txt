@@ -68,5 +68,8 @@ with open("mylife.txt", "r") as output_file:
     
     #Window background
     root.configure(bg="wheat")
+
     #Add a label to display the output text
+    output_label = tk.Label(root, text="" , font=("Arial", 14), bg=root['bg'], fg = "SaddleBrown")
+    output_label.pack()
     #Run the main loop method
