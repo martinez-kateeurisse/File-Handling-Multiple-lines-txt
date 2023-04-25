@@ -38,6 +38,8 @@ with open("mylife.txt", "w") as input_file:
 #Read the text file
 with open("mylife.txt", "r") as output_file:  
     #Import modules
+    import tkinter as tk
+    from tkinter import *
     # Define the lines to be printed
         #Iterating over the txt file
     # Initialize the current line index
