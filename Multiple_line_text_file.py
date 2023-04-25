@@ -48,10 +48,11 @@ with open("mylife.txt", "r") as output_file:
 
     # Initialize the current line index
     current_line = 0
-    
-    # Define the function to be called when the button is clicked
-        #If statement    
-    
+
+    # Define the function to be called when the button is clicked  
+    def on_button_click():
+        global current_line
+        #If statement  
     #Create a new window
     #Add a button to the window
     #Window background
