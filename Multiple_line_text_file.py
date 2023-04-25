@@ -34,3 +34,17 @@ with open("mylife.txt", "w") as input_file:
         add_line = input(f"{Fore.GREEN}Do you want to enter another line? (Type 'y' if yes and any key if no: " + Fore.RESET)
         print("="*85)
     #Loop will end when condition is not met
+
+#Read the text file
+    #Import modules
+    # Define the lines to be printed
+        #Iterating over the txt file
+    # Initialize the current line index
+    # Define the function to be called when the button is clicked
+        #If statement    
+    
+    #Create a new window
+    #Add a button to the window
+    #Window background
+    #Add a label to display the output text
+    #Run the main loop method
